@@ -3,7 +3,7 @@ class Color {
         printColor();
     }
 
-    public static void printColor() {
+    static void printColor() {
         int value = 100;
         if (value <= 0) {
             System.out.println("Red");

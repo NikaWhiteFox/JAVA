@@ -6,20 +6,20 @@ class HomeTask1 {
         compareNumbers();
     }
 
-    public static void printThreeWords() {
+    static void printThreeWords() {
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
 
-    public static void checkSumSign() {
+    static void checkSumSign() {
         int a = 3;
         int b = -4;
         int s = a + b;
         System.out.println(s >= 0 ? "Sum is positive" : "Sum is negative");
     }
 
-    public static void printColor() {
+    static void printColor() {
         int value = 100;
         if (value <= 0) {
             System.out.println("Red");
@@ -32,7 +32,7 @@ class HomeTask1 {
         }
     }
 
-    public static void compareNumbers() {
+    static void compareNumbers() {
         int a = 10;
         int b = 16;
         System.out.println(a >= b ? "a >= b" : "a < b");

@@ -3,7 +3,7 @@ class SumSign {
         checkSumSign();
     }
 
-    public static void checkSumSign() {
+    static void checkSumSign() {
         int a = 3;
         int b = -4;
         int s = a + b;
