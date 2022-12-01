@@ -1,7 +1,7 @@
 class Color {
     public static void main(String[] args) {
         printColor();
-	}
+    }
 
     public static void printColor() {
         int value = 100;

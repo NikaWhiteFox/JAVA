@@ -4,7 +4,7 @@ class HomeTask1 {
         checkSumSign();
         printColor();
         compareNumbers();
-	}
+    }
 
     public static void printThreeWords() {
         System.out.println("Orange");
@@ -16,7 +16,7 @@ class HomeTask1 {
         int a = 3;
         int b = -4;
         int s = a + b;
-        System.out.println(s >= 0? "Sum is positive": "Sum is negative");
+        System.out.println(s >= 0 ? "Sum is positive" : "Sum is negative");
     }
 
     public static void printColor() {
