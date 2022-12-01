@@ -15,8 +15,7 @@ class HomeTask1 {
     static void checkSumSign() {
         int a = 3;
         int b = -4;
-        int s = a + b;
-        System.out.println(s >= 0 ? "Sum is positive" : "Sum is negative");
+        System.out.println(a + b >= 0 ? "Sum is positive" : "Sum is negative");
     }
 
     static void printColor() {
