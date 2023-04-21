@@ -28,9 +28,8 @@ class HomeTask2 {
     
     static void repeatText(String text, int a) {
         for (int i = 0; i < a; i++) {
-            System.out.print(text);
+            System.out.println(text);
         }
-        System.out.println();
     }
     
     static boolean determineLeapYear(int year) {
