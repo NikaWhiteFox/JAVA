@@ -1,3 +1,10 @@
+/**
+ * Java 1. Homework 2
+ * 
+ * @author Veronika
+ * @version 21.04.2023
+ */
+
 class HomeTask2 {
     public static void main(String[] args) {
         System.out.println(checkSumBetween10And20(5, 10) ? "Summ is between 10 and 20 - true." : "Summ is between 10 and 20 - false.");
