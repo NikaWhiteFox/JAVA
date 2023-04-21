@@ -1,3 +1,10 @@
+/**
+ * Java 1. Homework 1
+ * 
+ * @author Veronika
+ * @version 21.04.2023
+ */
+
 class HomeTask1 {
     public static void main(String[] args) {
         printThreeWords();
