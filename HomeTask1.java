@@ -13,8 +13,8 @@ class HomeTask1 {
     }
 
     static void checkSumSign() {
-        int a = 3;
-        int b = -4;
+        int a = 4;
+        int b = -3;
         System.out.println(a + b >= 0 ? "Sum is positive" : "Sum is negative");
     }
 
@@ -22,11 +22,9 @@ class HomeTask1 {
         int value = 100;
         if (value <= 0) {
             System.out.println("Red");
-        }
-        if (value > 0 && value <= 100) {
+        } else if (value > 0 && value <= 100) {
             System.out.println("Yellow");
-        }
-        if (value > 100) {
+        } else {
             System.out.println("Green");
         }
     }
