@@ -15,7 +15,7 @@ class HomeTask2 {
     }
     
     static boolean checkSumBetween10And20(int a, int b) {
-		return a + b >= 10 && a + b <= 20;
+        return a + b >= 10 && a + b <= 20;
     }
     
     static void determineNumberPositive(int a) {
@@ -28,12 +28,12 @@ class HomeTask2 {
     
     static void repeatText(String text, int a) {
         for (int i = 0; i < a; i++) {
-        System.out.print(text);
+            System.out.print(text);
         }
-    System.out.println();
+        System.out.println();
     }
     
     static boolean determineLeapYear(int year) {
-		return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
+        return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0);
         }
 }
